@@ -1,0 +1,33 @@
+.phoneForm {
+    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  border: 2px solid skyblue;
+  border-radius: 10px;
+}
+
+.inputField {
+    padding: 10px;
+    border-radius: 10px;
+  font-size: 1em;
+  border: 1px solid skyblue;
+}
+
+.inputField:focus {
+    border: 1px solid #007bff;
+    outline: none;
+}
+
+.submitBtn {
+padding: 10px 20px;
+border-radius: 10px;
+border: 1px solid skyblue;
+background: #5ca1eb;
+}
+
+.submitBtn:hover {
+  background-color: #0056b3;
+}
